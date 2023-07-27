@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -8,6 +9,7 @@ body {
         Courier, monospace;
     font-size: 15px;
     color: #333;
+    overflow-x: hidden;
 }
 
 *,
