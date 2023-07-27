@@ -1,1 +1,1 @@
-# codewizards.github.io
+# code-wizards.ru
