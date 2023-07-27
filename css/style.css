@@ -50,16 +50,17 @@ h6 {
 .intro_title {
     margin-top: -200px;
     color: #fff;
-    font-size: 5vw;
+    font-size: clamp(1rem, -1.8939rem + 16.0772vw, 5rem);
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    line-height: 1;
 }
 
 
 .intro_subtitle {
     color: #fff;
-    font-size: 1vw;
+    font-size: clamp(1rem, -1.8939rem + 16.0772vw, 1rem);
     font-weight: 700;
     text-transform: none;
     text-align: center;
@@ -70,7 +71,7 @@ h6 {
     display: block;
     width: 300px;
     height: 2px;
-    margin: 60px auto -80px;
+    margin: 60px auto -70px;
     background-color: #fff;
 }
 
@@ -83,7 +84,7 @@ h6 {
 }
 
 .intro_product_button {
-    font-size: 14px;
+    font-size: clamp(1rem, -1.8939rem + 16.0772vw, 1rem);
     text-decoration: none;
     color: #fff;
     border: 2px solid #fff;
@@ -210,13 +211,17 @@ h6 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: #fff;
+    -webkit-line-clamp: 4;
 
 }
 
 .gb_font {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    font-size: clamp(1rem, -1.8939rem + 16.0772vw, 1.5rem);
+
     color: #fff;
+    -webkit-line-clamp: 4;
 
 }
 
@@ -240,8 +245,8 @@ h6 {
     padding-left: 10px;
     padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    width: 50%;
+    font-size: clamp(1rem, -1.8939rem + 16.0772vw, 1.5rem);
+    width: 1000px;
     color: #fff;
 }
 
