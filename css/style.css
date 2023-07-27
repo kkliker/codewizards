@@ -115,7 +115,7 @@ h6 {
 
 
 .header_inner {
-    float: right;
+    float: left;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
