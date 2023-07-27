@@ -52,6 +52,7 @@ h6 {
     font-size: clamp(1rem, -1.8939rem + 16.0772vw, 5rem);
     text-transform: uppercase;
     text-align: center;
+    margin-top: 5%;
 }
 
 
