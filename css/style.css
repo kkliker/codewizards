@@ -127,13 +127,12 @@ h6 {
 
 .intro_product_button {
     position: relative;
-    font-size: clamp(1rem, -1.8939rem + 16.0772vw, 1rem);
+    font-size: clamp(1rem, -1.8939rem + 16.0772vw, 1.1rem);
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #fff;
     margin-top: -100px;
-    border: 2px solid #fff;
-    border-color: #2b37a7;
-    background-color: #fff;
+    border: 2px #1a1515;
+    background-color: rgb(30, 48, 99);
     padding: 2px 10px;
 
 }
@@ -233,6 +232,7 @@ h6 {
 .section_header {
     background: #251f1f;
     min-height: 435px;
+
 }
 
 #down {
@@ -265,7 +265,7 @@ h6 {
 
 .gb_font {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: clamp(1rem, -1.8939rem + 16.0772vw, 1.5rem);
+    font-size: clamp(1rem, -1.8939rem + 16.0772vw, 1.3rem);
     width: 100%;
     color: #fff;
     -webkit-line-clamp: 4;
@@ -281,7 +281,7 @@ h6 {
 .te_title_font {
     content: url("../assets/texteditor.png");
     width: 40%;
-    box-shadow: 2px 2px 10px 1px builderrgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 1);
     float: right;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
@@ -290,11 +290,44 @@ h6 {
 
 .te_font {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: clamp(1rem, -1.8939rem + 16.0772vw, 1.5rem);
+    font-size: clamp(1rem, -1.8939rem + 16.0772vw, 1.3rem);
     width: 100%;
     color: #fff;
     -webkit-line-clamp: 4;
 
+}
+
+
+.end_section {
+    display: flex;
+}
+
+.virus_total_font {
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(1rem, -1.8939rem + 16.0772vw, 1.3rem);
+    width: 100%;
+    padding-left: 10px;
+    max-width: 1500px;
+    text-align: left;
+    -webkit-line-clamp: 100;
+    color: #fff;
+}
+
+.virus_total {
+    content: url("../assets/virus_check.png");
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 1);
+    float: left;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.virus_total_div {
+    overflow: scroll;
+    width: 50vh;
+    height: 500px;
 }
 
 
