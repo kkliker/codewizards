@@ -97,6 +97,26 @@ h6 {
 
 }
 
+@media screen and (max-height: 400px) {
+    .intro_title {
+        color: #fff;
+        font-size: clamp(1rem, -1.8939rem + 16.0772vh, 5rem);
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: -50vh;
+    }
+
+    .intro_subtitle {
+        color: #fff;
+        font-size: clamp(1rem, -1.8939rem + 16.0772vh, 1rem);
+        font-weight: 700;
+        max-height: 40px;
+        text-transform: none;
+        text-align: center;
+    }
+
+}
+
 
 .intro_inner {
     font-size: 150px;
