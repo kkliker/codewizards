@@ -44,21 +44,21 @@ h6 {
     height: 100vh;
     background: url("../assets/wallpaper.jpg") no-repeat center;
     background-size: cover;
-    padding-bottom: 100px;
+
 }
 
 .intro_title {
     color: #fff;
-    font-size: clamp(1rem, -1.8939rem + 16.0772vw, 5rem);
+    font-size: clamp(1rem, -1.8939rem + 16.0772vh, 5rem);
     text-transform: uppercase;
     text-align: center;
-    margin-top: 5%;
+    padding-top: -50vh;
 }
 
 
 .intro_subtitle {
     color: #fff;
-    font-size: clamp(1rem, -1.8939rem + 16.0772vw, 1rem);
+    font-size: clamp(1rem, -1.8939rem + 16.0772vh, 1rem);
     font-weight: 700;
     max-height: 40px;
     text-transform: none;
@@ -134,6 +134,7 @@ h6 {
     height: 30px !important;
     background-color: #1a1515;
     box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 1);
+    margin-bottom: 50px !important;
 }
 
 .nav {
